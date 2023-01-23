@@ -1,0 +1,32 @@
+main {
+  border: 5px solid black;
+  margin: 30% auto;
+  height: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+article div {
+  align-items: center;
+}
+.button {
+  background-color: blue;
+  margin-top: 20px;
+}
+.hide {
+  display: none;
+}
+.buttons {
+  background-color: purple;
+  justify-content: left;
+}
