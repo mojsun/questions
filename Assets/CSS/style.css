@@ -19,14 +19,40 @@ article {
 article div {
   align-items: center;
 }
+article h2 {
+  font-family: sans-serif;
+}
+.button-btn,
 .button {
   background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  border-radius: 12%;
+}
+.button-btn {
   margin-top: 20px;
 }
 .hide {
   display: none;
 }
+
 .buttons {
   background-color: purple;
   justify-content: left;
+  width: 150px;
+  color: white;
+  margin-bottom: 8px;
+  justify-self: left;
+}
+.last {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+}
+.initial {
+  border: 2px solid black;
+  padding: 0 70px;
+  height: 20px;
 }

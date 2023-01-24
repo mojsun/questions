@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/CSS/reset.css" />
     <link rel="stylesheet" href="./Assets/CSS/style.css" />
     <title>Questions</title>
   </head>
@@ -14,33 +15,38 @@
           <a href="#">view high score</a>
         </h3>
         <div>
-          <p>time:</p>
+          <p class="time">time:0</p>
+          <div id="timer"></div>
         </div>
       </header>
       <section>
         <article id="first">
-          <h2>coding quiz challenge</h2>
+          <h2>Coding quiz challenge</h2>
           <div>
             try to answer the following code related questions with in the time
             limit. keep in mind that incorrect answers will panelize your
             score/time by ten seconds!
           </div>
           <div>
-            <button class="button" id="firstButton">start quiz</button>
+            <button class="button-btn" id="firstButton">start quiz</button>
           </div>
         </article>
 
         <article class="hide" id="second">
-          <h2 id="question">testing</h2>
+          <h2 id="question"></h2>
           <button class="buttons" id="optionOne"></button>
           <button class="buttons" id="optionTwo"></button>
           <button class="buttons" id="optionThree"></button>
           <button class="buttons" id="optionFour"></button>
+          <h2 id="result" class="hide"></h2>
         </article>
-        <article id="third">
+
+        <article class="hide" id="third">
           <h2>All done!</h2>
-          <p>your final score is :</p>
-          <div>
+          <p>your final score is : 22</p>
+          <div class="last">
+            <p>Enter initials:</p>
+            <div class="initial"></div>
             <button class="button" id="lastButton">submit</button>
           </div>
         </article>
