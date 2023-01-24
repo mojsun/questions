@@ -22,13 +22,13 @@ let boxes = [
       "3.booleans",
       "4.all of the above",
     ],
-    result: ["correct"],
+    result: ["4.all of the above"],
   },
   {
     question:
       "string values must be enclosed within -------- when being assigned to variables ",
     answers: ["1.commas", "2.curly bracket", "3.quotes", "4.patenthesis"],
-    result: ["wrong!"],
+    result: ["2.curly bracket"],
   },
   {
     question:
@@ -39,7 +39,7 @@ let boxes = [
       "3.for loops",
       "4.console.log",
     ],
-    result: ["wrong!"],
+    result: ["3.for loops"],
   },
 ];
 
@@ -60,11 +60,9 @@ function showQuestion() {
 function checkAnswer(event) {
   var userChoice = event.target.textContent;
   if (userChoice == boxes[currentQuestionIndex].result) {
-    console.log("correct");
     document.getElementById("result").setAttribute("class", "");
     document.getElementById("result").textContent = "correct";
   } else {
-    console.log("here");
     document.getElementById("result").setAttribute("class", "");
     document.getElementById("result").textContent = "wrong!";
   }
