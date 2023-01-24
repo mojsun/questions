@@ -56,3 +56,15 @@ article h2 {
   padding: 0 70px;
   height: 20px;
 }
+.highscoreButton {
+  background-color: purple;
+  color: white;
+  border-radius: 8%;
+}
+.score {
+  border: 2px solid lightpink;
+  padding: 0 70px;
+  height: 20px;
+  background-color: lightpink;
+  margin-bottom: 10px;
+}

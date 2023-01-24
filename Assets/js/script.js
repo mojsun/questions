@@ -79,7 +79,18 @@ function checkAnswer(event) {
 function endQuiz() {
   document.getElementById("second").setAttribute("class", "hide");
   document.getElementById("third").setAttribute("class", "");
+
+  /*let scoress = document.querySelector("#lastButton");
+  button.addEventListener("click", function () {
+    document.getElementById("third").setAttribute("class", "hide");
+    document.getElementById("forth").setAttribute("class", "");
+  });*/
+  /*if(function endQuiz){
+    document.getElementById("third").setAttribute("class", "hide");
+      document.getElementById("forth").setAttribute("class", "");
+}*/
 }
+
 var timeEl = document.querySelector(".time");
 var mainEl = document.getElementById("timer");
 var secondleft = 75;
